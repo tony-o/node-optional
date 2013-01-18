@@ -1,0 +1,12 @@
+{
+  "name":"optional"
+  ,"version":"v0.1.0-1"
+  ,"homepage":"http://segomos.com/"
+  ,"main":"optional"
+  ,"repository":{
+    "type":"git"
+    ,"url":"git@github.com:tony-o/node-optional.git"
+  }
+  ,"description":"Allows you to optionally include modules without surrounding everything with 'try/catch'"
+  ,"keywords":["include","optional include","optional","require","exists"]
+}
