@@ -25,3 +25,8 @@ Output:
 express: null
 fs: [object Object]
 ```
+
+##Changelog
+###v0.1.0-2
+
+ * Corrected bug when trying to optionally include relative paths
