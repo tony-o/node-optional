@@ -4,7 +4,7 @@ module.exports = function(module, options){
       module = process.cwd() + module.substr(1);
     }
     return require(module);
-  }catch(e){ 
+  }catch(err){ 
     if (err.code !== "MODULE_NOT_FOUND" && options && options.rethrow) {
       throw err;
     }
