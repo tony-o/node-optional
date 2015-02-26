@@ -9,4 +9,5 @@
   }
   ,"description":"Allows you to optionally include modules without surrounding everything with 'try/catch'"
   ,"keywords":["include","optional include","optional","require","exists"]
+  ,"license":"MIT"
 }
