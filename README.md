@@ -1,14 +1,14 @@
-#OPTIONAL
+# OPTIONAL
 
-Node-optional allows you to optionally 'require' modules without surrounding everything with 'try/catch'.  Usage and installation is easy and this module itself is very easy and straightforward to use.
+Node-optional allows you to optionally 'require' modules without surrounding everything with 'try/catch'. Usage and installation is easy and this module itself is very easy and straightforward to use.
 
-##Install
+## Install
 
 ```
-  npm install optional
+npm install optional
 ```
 
-##Usage
+## Usage
 
 ```javascript
 var optional = require("./optional");
@@ -21,12 +21,14 @@ console.log("fs: " + fs);
 ```
 
 Output:
+
 ```
 express: null
 fs: [object Object]
 ```
 
-##Changelog
-###v0.1.0-2
+## Changelog
 
- * Corrected bug when trying to optionally include relative paths
+### v0.1.0-2
+
+* Corrected bug when trying to optionally include relative paths
