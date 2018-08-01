@@ -8,6 +8,10 @@ Node-optional allows you to optionally 'require' modules without surrounding eve
   npm install optional
 ```
 
+## Requirements
+
+Nodejs v4.0.0 or later
+
 ## Usage
 
 ```javascript
